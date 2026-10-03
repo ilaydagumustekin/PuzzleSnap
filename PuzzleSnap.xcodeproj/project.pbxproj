@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01850C8CF383CE29C019726F /* photo-639.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BEC05CA54476702230430 /* photo-639.jpg */; };
+		07C01BCCF55B23577B5F1F12 /* photo-870.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D8781E264A972585D56BDA8 /* photo-870.jpg */; };
+		086D325AA0813C818886C8EC /* photo-902.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 026F15A62526777BDF73B5D0 /* photo-902.jpg */; };
+		086E5EBDA7AD223740F4CD38 /* photo-670.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F8312D9A61436B029A0701C /* photo-670.jpg */; };
+		0883A6747BA19CAD429FEC29 /* photo-976.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3177FA7BA2EC2ED9F7C05FF3 /* photo-976.jpg */; };
+		0F23E7F66966FD25A2C80014 /* photo-923.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7884A7E12CD0EDA0D6BDB4BF /* photo-923.jpg */; };
+		12873E7C549FC24E8CFD8CB5 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD73BE059E8EDC42DCD63A54 /* PhotoLibrary.swift */; };
+		22FE7F776D9C5359FCC1691E /* photo-509.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE414C69C7202183A8989147 /* photo-509.jpg */; };
+		235CA01B94BA26AE0F9DC8E2 /* photo-1043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472352C5CE34DB74FD98987C /* photo-1043.jpg */; };
+		237EC14BE54DEF46B10D4868 /* photo-1039.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBF83AEBEF11EB85154F4706 /* photo-1039.jpg */; };
+		26DD1758381A04718BCB987C /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E77B39F2EC27A99A223D9E /* GameStore.swift */; };
+		29F0870DCA7C64863FAD8B36 /* photo-674.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D552C41F796F892250E954BF /* photo-674.jpg */; };
+		2B5E70B487B73C05F835E0F1 /* photo-582.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F1C44D88DCED9A425BC46D /* photo-582.jpg */; };
+		2E59549C65DF8D5C7ADF5F62 /* PuzzleSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55292B94F7D489319520CD02 /* PuzzleSnapApp.swift */; };
+		2F0B066ABF7166A080E4EE09 /* PuzzleMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD697C0270405926BC1E24F9 /* PuzzleMode.swift */; };
+		31101799296F7C66DF154F07 /* photo-564.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76A1962CEAA49146DDA3E9D0 /* photo-564.jpg */; };
+		364EEDAED355DB5F7041809F /* photo-701.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3C3F9385B0A0A09A4A7C442 /* photo-701.jpg */; };
+		3A3AA4D67B2B5CF33407BB26 /* PuzzleBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A95D8621CFF6063202AB11 /* PuzzleBoardTests.swift */; };
+		41AB4E232DCD79AB0429D6A4 /* PuzzleBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18F588C8BD96AE1B8C01E87 /* PuzzleBoard.swift */; };
+		4274A1C2C4DFDC4B4ED816A1 /* photo-871.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC2FD233AD537E0328DD237 /* photo-871.jpg */; };
+		574E84AFFFCBE00FBD503300 /* photo-433.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC4CD4D53794396DA83DCC2 /* photo-433.jpg */; };
+		5F5BD81F04182B41572C24C5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C4CB535FC9608BF2A5685 /* BoardView.swift */; };
+		6109C9750E99EF19FC5C458D /* photo-857.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AD504F5D90A72DDF65626FD /* photo-857.jpg */; };
+		649670883C5768E5AB1C5ED6 /* photo-924.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B85C7EFDC0D58A46A21FA957 /* photo-924.jpg */; };
+		6CE59B2179AAE0A09339E1F6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69614022252104320EF178C2 /* GameViewModel.swift */; };
+		7688E3DDEBBCA8D33C1B3B54 /* photo-1025.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2FDEDB3DF9CDE42D46053DF /* photo-1025.jpg */; };
+		8015BA99CF8B0167F7E04DCB /* photo-645.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62A1D117864F3C752C4956D5 /* photo-645.jpg */; };
+		817204E83AF5809553993F02 /* photo-174.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92B58B77F9BD469CCB0B59A3 /* photo-174.jpg */; };
+		82450E51813306424329A955 /* photo-1050.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FDBC9D0FB47A4F32F7D74 /* photo-1050.jpg */; };
+		8349E8AE097F836C468B13EB /* photo-429.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDF06CB015A7917AEC294213 /* photo-429.jpg */; };
+		85324DCF831E5D4C080270CC /* photo-791.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 821581D862BF701A5648D69E /* photo-791.jpg */; };
+		85439B5746AF605DE72BC6B6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DCAEDD5C0FC30E93ACE9 /* GameView.swift */; };
+		87288F68C34873EC15956646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8413FFA28BA616E903FBA02 /* Assets.xcassets */; };
+		872992323AFD09E8B355BE0D /* photo-360.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33BE28CCCF195EE2C755D97D /* photo-360.jpg */; };
+		889B9592C3000789E3DF894D /* photo-1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5F2A038B446EE7367A9EA8 /* photo-1080.jpg */; };
+		8AEA64BB0A9A3F06A832B98D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE805C6A566235E376E8953C /* HomeView.swift */; };
+		8BB8B79D4B6BAA2C879ACEF7 /* photo-696.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C28C2B82F9A49550AD0FB38D /* photo-696.jpg */; };
+		91E607204219F315FACBE87E /* photo-1015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05E3492047EAE30003173408 /* photo-1015.jpg */; };
+		9340A9979FE49EFC38955BD3 /* photo-828.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A48615F8C4D9344291B14C6E /* photo-828.jpg */; };
+		9491DD433F5C6D2266849BC6 /* photo-553.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 860694DCB73D8E0B9AB29020 /* photo-553.jpg */; };
+		97945E422FE0CDDB796BB612 /* photo-419.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 011EFED9E1DC527168BFDC40 /* photo-419.jpg */; };
+		984D257BC118C690F8D96BFD /* photo-896.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86EAD38FD60F4365F2E3BA0 /* photo-896.jpg */; };
+		A136AB5EDAC9F45C1914A614 /* photo-906.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74B2E600F147C9FD66536868 /* photo-906.jpg */; };
+		A25A5CFFF4B2F9DF93A77537 /* photo-829.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD5F53D7F7C507959E9CD06C /* photo-829.jpg */; };
+		A95F203A1EB4D52EDA203184 /* photo-517.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9110C0B4B0BB8617ACB71B76 /* photo-517.jpg */; };
+		A9BF59777D912B9812FFDAFB /* photo-718.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92D8A6B3872233167770B15 /* photo-718.jpg */; };
+		B09C8BA3C20C8368B5822A6D /* photo-903.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B26D46E5E81E75B2A3525FE3 /* photo-903.jpg */; };
+		BB70F61679B97D1F657F894C /* photo-1016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6419118184E58F3EB679C798 /* photo-1016.jpg */; };
+		BC4F1B8CFEF9D19A520857C3 /* photo-1069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE92DE44A7EDA7625578BBCD /* photo-1069.jpg */; };
+		BCFD6F6D9B17CB1BB0646BD8 /* photo-1084.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7584990095B4DA5C01CB8E80 /* photo-1084.jpg */; };
+		C1032B90A3BB8B44DC74E084 /* photo-873.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD22765E94D77337B87A0B46 /* photo-873.jpg */; };
+		C6A6E6A06A6E6DB7518DB51F /* photo-1040.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4AC114F13DD51568E3B037F /* photo-1040.jpg */; };
+		CD59A4980EF822CD65BC9277 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C199FF28BF4C143802C1E /* CollectionView.swift */; };
+		D226617E5A7D3B83E6544D18 /* photo-593.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CABB015DCFB685C79C7C9164 /* photo-593.jpg */; };
+		D7320A1190133063010A780B /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7894A082B8C2D336443F560B /* Components.swift */; };
+		DE0BAF2A97D7409D09B81F1E /* photo-980.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5330780C5D7475A1A4DCA872 /* photo-980.jpg */; };
+		E053CD15877D5FBBE43C297F /* photo-901.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7468A94C2B6CA3AF148E878 /* photo-901.jpg */; };
+		E95F5D4C1AC1C8F223A67E3A /* photo-1074.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 150A70928951F0BFB2B6B738 /* photo-1074.jpg */; };
+		EA20F68F65D8EC52F0596B49 /* photo-937.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC0CD549E0997EEE6A74A3A /* photo-937.jpg */; };
+		EFE872663663D50506FC927C /* photo-864.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AFA0A4212B03474BC54598E /* photo-864.jpg */; };
+		FA0E13E8BF35F6204C04E64A /* photo-659.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4AE66C9C669314EFF691631 /* photo-659.jpg */; };
+		FAA13B0EAD51C883F5C5B8F4 /* photo-1003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0132EA524CA1D6D74B045C54 /* photo-1003.jpg */; };
+		FE082812D8125D74EC471ACC /* photo-849.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 694F8077F40933AD0FB0673D /* photo-849.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC43A6341725EE15224262C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FCB9B944EA5A7DA0C675C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8695373E1A834CE003887B8;
+			remoteInfo = PuzzleSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011EFED9E1DC527168BFDC40 /* photo-419.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-419.jpg"; sourceTree = "<group>"; };
+		0132EA524CA1D6D74B045C54 /* photo-1003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1003.jpg"; sourceTree = "<group>"; };
+		026F15A62526777BDF73B5D0 /* photo-902.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-902.jpg"; sourceTree = "<group>"; };
+		05E3492047EAE30003173408 /* photo-1015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1015.jpg"; sourceTree = "<group>"; };
+		0AFA0A4212B03474BC54598E /* photo-864.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-864.jpg"; sourceTree = "<group>"; };
+		12F1C44D88DCED9A425BC46D /* photo-582.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-582.jpg"; sourceTree = "<group>"; };
+		150A70928951F0BFB2B6B738 /* photo-1074.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1074.jpg"; sourceTree = "<group>"; };
+		26A95D8621CFF6063202AB11 /* PuzzleBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleBoardTests.swift; sourceTree = "<group>"; };
+		2F8312D9A61436B029A0701C /* photo-670.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-670.jpg"; sourceTree = "<group>"; };
+		3177FA7BA2EC2ED9F7C05FF3 /* photo-976.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-976.jpg"; sourceTree = "<group>"; };
+		33BE28CCCF195EE2C755D97D /* photo-360.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-360.jpg"; sourceTree = "<group>"; };
+		3AD504F5D90A72DDF65626FD /* photo-857.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-857.jpg"; sourceTree = "<group>"; };
+		472352C5CE34DB74FD98987C /* photo-1043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1043.jpg"; sourceTree = "<group>"; };
+		4D8FDBC9D0FB47A4F32F7D74 /* photo-1050.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1050.jpg"; sourceTree = "<group>"; };
+		5330780C5D7475A1A4DCA872 /* photo-980.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-980.jpg"; sourceTree = "<group>"; };
+		55292B94F7D489319520CD02 /* PuzzleSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSnapApp.swift; sourceTree = "<group>"; };
+		62A1D117864F3C752C4956D5 /* photo-645.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-645.jpg"; sourceTree = "<group>"; };
+		63E77B39F2EC27A99A223D9E /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		6419118184E58F3EB679C798 /* photo-1016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1016.jpg"; sourceTree = "<group>"; };
+		694F8077F40933AD0FB0673D /* photo-849.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-849.jpg"; sourceTree = "<group>"; };
+		69614022252104320EF178C2 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		74B2E600F147C9FD66536868 /* photo-906.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-906.jpg"; sourceTree = "<group>"; };
+		7584990095B4DA5C01CB8E80 /* photo-1084.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1084.jpg"; sourceTree = "<group>"; };
+		76A1962CEAA49146DDA3E9D0 /* photo-564.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-564.jpg"; sourceTree = "<group>"; };
+		7884A7E12CD0EDA0D6BDB4BF /* photo-923.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-923.jpg"; sourceTree = "<group>"; };
+		7894A082B8C2D336443F560B /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		7A0BEC05CA54476702230430 /* photo-639.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-639.jpg"; sourceTree = "<group>"; };
+		7FF4DCAEDD5C0FC30E93ACE9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		821581D862BF701A5648D69E /* photo-791.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-791.jpg"; sourceTree = "<group>"; };
+		855BA4A3BD50A8CB4B815F3E /* PuzzleSnap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PuzzleSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860694DCB73D8E0B9AB29020 /* photo-553.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-553.jpg"; sourceTree = "<group>"; };
+		8DC0CD549E0997EEE6A74A3A /* photo-937.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-937.jpg"; sourceTree = "<group>"; };
+		9110C0B4B0BB8617ACB71B76 /* photo-517.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-517.jpg"; sourceTree = "<group>"; };
+		92B58B77F9BD469CCB0B59A3 /* photo-174.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-174.jpg"; sourceTree = "<group>"; };
+		97247E97035586A0C6065D36 /* PuzzleSnapTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PuzzleSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8781E264A972585D56BDA8 /* photo-870.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-870.jpg"; sourceTree = "<group>"; };
+		A48615F8C4D9344291B14C6E /* photo-828.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-828.jpg"; sourceTree = "<group>"; };
+		A4AE66C9C669314EFF691631 /* photo-659.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-659.jpg"; sourceTree = "<group>"; };
+		AD5F53D7F7C507959E9CD06C /* photo-829.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-829.jpg"; sourceTree = "<group>"; };
+		B26D46E5E81E75B2A3525FE3 /* photo-903.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-903.jpg"; sourceTree = "<group>"; };
+		B2FDEDB3DF9CDE42D46053DF /* photo-1025.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1025.jpg"; sourceTree = "<group>"; };
+		B4AC114F13DD51568E3B037F /* photo-1040.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1040.jpg"; sourceTree = "<group>"; };
+		B85C7EFDC0D58A46A21FA957 /* photo-924.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-924.jpg"; sourceTree = "<group>"; };
+		B86EAD38FD60F4365F2E3BA0 /* photo-896.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-896.jpg"; sourceTree = "<group>"; };
+		C18F588C8BD96AE1B8C01E87 /* PuzzleBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleBoard.swift; sourceTree = "<group>"; };
+		C28C2B82F9A49550AD0FB38D /* photo-696.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-696.jpg"; sourceTree = "<group>"; };
+		C92D8A6B3872233167770B15 /* photo-718.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-718.jpg"; sourceTree = "<group>"; };
+		CABB015DCFB685C79C7C9164 /* photo-593.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-593.jpg"; sourceTree = "<group>"; };
+		CD22765E94D77337B87A0B46 /* photo-873.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-873.jpg"; sourceTree = "<group>"; };
+		CD697C0270405926BC1E24F9 /* PuzzleMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleMode.swift; sourceTree = "<group>"; };
+		CD73BE059E8EDC42DCD63A54 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		CDF06CB015A7917AEC294213 /* photo-429.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-429.jpg"; sourceTree = "<group>"; };
+		D552C41F796F892250E954BF /* photo-674.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-674.jpg"; sourceTree = "<group>"; };
+		D7468A94C2B6CA3AF148E878 /* photo-901.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-901.jpg"; sourceTree = "<group>"; };
+		DBC2FD233AD537E0328DD237 /* photo-871.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-871.jpg"; sourceTree = "<group>"; };
+		E3C3F9385B0A0A09A4A7C442 /* photo-701.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-701.jpg"; sourceTree = "<group>"; };
+		E70C4CB535FC9608BF2A5685 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		E8413FFA28BA616E903FBA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2C199FF28BF4C143802C1E /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		EE414C69C7202183A8989147 /* photo-509.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-509.jpg"; sourceTree = "<group>"; };
+		EFC4CD4D53794396DA83DCC2 /* photo-433.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-433.jpg"; sourceTree = "<group>"; };
+		FBF83AEBEF11EB85154F4706 /* photo-1039.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1039.jpg"; sourceTree = "<group>"; };
+		FE805C6A566235E376E8953C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FE92DE44A7EDA7625578BBCD /* photo-1069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1069.jpg"; sourceTree = "<group>"; };
+		FF5F2A038B446EE7367A9EA8 /* photo-1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1080.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2EE349F1EA3E594BE64DBE53 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				92B58B77F9BD469CCB0B59A3 /* photo-174.jpg */,
+				33BE28CCCF195EE2C755D97D /* photo-360.jpg */,
+				011EFED9E1DC527168BFDC40 /* photo-419.jpg */,
+				CDF06CB015A7917AEC294213 /* photo-429.jpg */,
+				EFC4CD4D53794396DA83DCC2 /* photo-433.jpg */,
+				EE414C69C7202183A8989147 /* photo-509.jpg */,
+				9110C0B4B0BB8617ACB71B76 /* photo-517.jpg */,
+				860694DCB73D8E0B9AB29020 /* photo-553.jpg */,
+				76A1962CEAA49146DDA3E9D0 /* photo-564.jpg */,
+				12F1C44D88DCED9A425BC46D /* photo-582.jpg */,
+				CABB015DCFB685C79C7C9164 /* photo-593.jpg */,
+				7A0BEC05CA54476702230430 /* photo-639.jpg */,
+				62A1D117864F3C752C4956D5 /* photo-645.jpg */,
+				A4AE66C9C669314EFF691631 /* photo-659.jpg */,
+				2F8312D9A61436B029A0701C /* photo-670.jpg */,
+				D552C41F796F892250E954BF /* photo-674.jpg */,
+				C28C2B82F9A49550AD0FB38D /* photo-696.jpg */,
+				E3C3F9385B0A0A09A4A7C442 /* photo-701.jpg */,
+				C92D8A6B3872233167770B15 /* photo-718.jpg */,
+				821581D862BF701A5648D69E /* photo-791.jpg */,
+				A48615F8C4D9344291B14C6E /* photo-828.jpg */,
+				AD5F53D7F7C507959E9CD06C /* photo-829.jpg */,
+				694F8077F40933AD0FB0673D /* photo-849.jpg */,
+				3AD504F5D90A72DDF65626FD /* photo-857.jpg */,
+				0AFA0A4212B03474BC54598E /* photo-864.jpg */,
+				9D8781E264A972585D56BDA8 /* photo-870.jpg */,
+				DBC2FD233AD537E0328DD237 /* photo-871.jpg */,
+				CD22765E94D77337B87A0B46 /* photo-873.jpg */,
+				B86EAD38FD60F4365F2E3BA0 /* photo-896.jpg */,
+				D7468A94C2B6CA3AF148E878 /* photo-901.jpg */,
+				026F15A62526777BDF73B5D0 /* photo-902.jpg */,
+				B26D46E5E81E75B2A3525FE3 /* photo-903.jpg */,
+				74B2E600F147C9FD66536868 /* photo-906.jpg */,
+				7884A7E12CD0EDA0D6BDB4BF /* photo-923.jpg */,
+				B85C7EFDC0D58A46A21FA957 /* photo-924.jpg */,
+				8DC0CD549E0997EEE6A74A3A /* photo-937.jpg */,
+				3177FA7BA2EC2ED9F7C05FF3 /* photo-976.jpg */,
+				5330780C5D7475A1A4DCA872 /* photo-980.jpg */,
+				0132EA524CA1D6D74B045C54 /* photo-1003.jpg */,
+				05E3492047EAE30003173408 /* photo-1015.jpg */,
+				6419118184E58F3EB679C798 /* photo-1016.jpg */,
+				B2FDEDB3DF9CDE42D46053DF /* photo-1025.jpg */,
+				FBF83AEBEF11EB85154F4706 /* photo-1039.jpg */,
+				B4AC114F13DD51568E3B037F /* photo-1040.jpg */,
+				472352C5CE34DB74FD98987C /* photo-1043.jpg */,
+				4D8FDBC9D0FB47A4F32F7D74 /* photo-1050.jpg */,
+				FE92DE44A7EDA7625578BBCD /* photo-1069.jpg */,
+				150A70928951F0BFB2B6B738 /* photo-1074.jpg */,
+				FF5F2A038B446EE7367A9EA8 /* photo-1080.jpg */,
+				7584990095B4DA5C01CB8E80 /* photo-1084.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		310A270175837BECFDC9CAEC = {
+			isa = PBXGroup;
+			children = (
+				43AC238B1E69A3B994673D47 /* PuzzleSnap */,
+				50D26327CD1FB37E9AF8DD2B /* PuzzleSnapTests */,
+				F79B3199D300D496819AA083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AC238B1E69A3B994673D47 /* PuzzleSnap */ = {
+			isa = PBXGroup;
+			children = (
+				E8413FFA28BA616E903FBA02 /* Assets.xcassets */,
+				8226FBF74353014ABEFBDA3F /* App */,
+				7D035711B0CEDAB9EBDB1AD9 /* Model */,
+				2EE349F1EA3E594BE64DBE53 /* Photos */,
+				CD503CD46E422B2214DEF074 /* Views */,
+			);
+			path = PuzzleSnap;
+			sourceTree = "<group>";
+		};
+		50D26327CD1FB37E9AF8DD2B /* PuzzleSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				26A95D8621CFF6063202AB11 /* PuzzleBoardTests.swift */,
+			);
+			path = PuzzleSnapTests;
+			sourceTree = "<group>";
+		};
+		7D035711B0CEDAB9EBDB1AD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63E77B39F2EC27A99A223D9E /* GameStore.swift */,
+				69614022252104320EF178C2 /* GameViewModel.swift */,
+				CD73BE059E8EDC42DCD63A54 /* PhotoLibrary.swift */,
+				C18F588C8BD96AE1B8C01E87 /* PuzzleBoard.swift */,
+				CD697C0270405926BC1E24F9 /* PuzzleMode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8226FBF74353014ABEFBDA3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55292B94F7D489319520CD02 /* PuzzleSnapApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CD503CD46E422B2214DEF074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E70C4CB535FC9608BF2A5685 /* BoardView.swift */,
+				EA2C199FF28BF4C143802C1E /* CollectionView.swift */,
+				7894A082B8C2D336443F560B /* Components.swift */,
+				7FF4DCAEDD5C0FC30E93ACE9 /* GameView.swift */,
+				FE805C6A566235E376E8953C /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F79B3199D300D496819AA083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855BA4A3BD50A8CB4B815F3E /* PuzzleSnap.app */,
+				97247E97035586A0C6065D36 /* PuzzleSnapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA5DADDE17C577139191ACF /* PuzzleSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77748C34C7B85330BDF7D7FB /* Build configuration list for PBXNativeTarget "PuzzleSnapTests" */;
+			buildPhases = (
+				8B92EDB22F03F7E6841AE681 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E925B9DF863145104437BE7 /* PBXTargetDependency */,
+			);
+			name = PuzzleSnapTests;
+			packageProductDependencies = (
+			);
+			productName = PuzzleSnapTests;
+			productReference = 97247E97035586A0C6065D36 /* PuzzleSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8695373E1A834CE003887B8 /* PuzzleSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5648BA4203B1E88E800AF20 /* Build configuration list for PBXNativeTarget "PuzzleSnap" */;
+			buildPhases = (
+				6876D01C78049A228775B505 /* Sources */,
+				F66DD33CA2F9D3124E5B4C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleSnap;
+			packageProductDependencies = (
+			);
+			productName = PuzzleSnap;
+			productReference = 855BA4A3BD50A8CB4B815F3E /* PuzzleSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FCB9B944EA5A7DA0C675C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = CB45AA10D2B7436C1628E5A0 /* Build configuration list for PBXProject "PuzzleSnap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 310A270175837BECFDC9CAEC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F79B3199D300D496819AA083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8695373E1A834CE003887B8 /* PuzzleSnap */,
+				3AA5DADDE17C577139191ACF /* PuzzleSnapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66DD33CA2F9D3124E5B4C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87288F68C34873EC15956646 /* Assets.xcassets in Resources */,
+				FAA13B0EAD51C883F5C5B8F4 /* photo-1003.jpg in Resources */,
+				91E607204219F315FACBE87E /* photo-1015.jpg in Resources */,
+				BB70F61679B97D1F657F894C /* photo-1016.jpg in Resources */,
+				7688E3DDEBBCA8D33C1B3B54 /* photo-1025.jpg in Resources */,
+				237EC14BE54DEF46B10D4868 /* photo-1039.jpg in Resources */,
+				C6A6E6A06A6E6DB7518DB51F /* photo-1040.jpg in Resources */,
+				235CA01B94BA26AE0F9DC8E2 /* photo-1043.jpg in Resources */,
+				82450E51813306424329A955 /* photo-1050.jpg in Resources */,
+				BC4F1B8CFEF9D19A520857C3 /* photo-1069.jpg in Resources */,
+				E95F5D4C1AC1C8F223A67E3A /* photo-1074.jpg in Resources */,
+				889B9592C3000789E3DF894D /* photo-1080.jpg in Resources */,
+				BCFD6F6D9B17CB1BB0646BD8 /* photo-1084.jpg in Resources */,
+				817204E83AF5809553993F02 /* photo-174.jpg in Resources */,
+				872992323AFD09E8B355BE0D /* photo-360.jpg in Resources */,
+				97945E422FE0CDDB796BB612 /* photo-419.jpg in Resources */,
+				8349E8AE097F836C468B13EB /* photo-429.jpg in Resources */,
+				574E84AFFFCBE00FBD503300 /* photo-433.jpg in Resources */,
+				22FE7F776D9C5359FCC1691E /* photo-509.jpg in Resources */,
+				A95F203A1EB4D52EDA203184 /* photo-517.jpg in Resources */,
+				9491DD433F5C6D2266849BC6 /* photo-553.jpg in Resources */,
+				31101799296F7C66DF154F07 /* photo-564.jpg in Resources */,
+				2B5E70B487B73C05F835E0F1 /* photo-582.jpg in Resources */,
+				D226617E5A7D3B83E6544D18 /* photo-593.jpg in Resources */,
+				01850C8CF383CE29C019726F /* photo-639.jpg in Resources */,
+				8015BA99CF8B0167F7E04DCB /* photo-645.jpg in Resources */,
+				FA0E13E8BF35F6204C04E64A /* photo-659.jpg in Resources */,
+				086E5EBDA7AD223740F4CD38 /* photo-670.jpg in Resources */,
+				29F0870DCA7C64863FAD8B36 /* photo-674.jpg in Resources */,
+				8BB8B79D4B6BAA2C879ACEF7 /* photo-696.jpg in Resources */,
+				364EEDAED355DB5F7041809F /* photo-701.jpg in Resources */,
+				A9BF59777D912B9812FFDAFB /* photo-718.jpg in Resources */,
+				85324DCF831E5D4C080270CC /* photo-791.jpg in Resources */,
+				9340A9979FE49EFC38955BD3 /* photo-828.jpg in Resources */,
+				A25A5CFFF4B2F9DF93A77537 /* photo-829.jpg in Resources */,
+				FE082812D8125D74EC471ACC /* photo-849.jpg in Resources */,
+				6109C9750E99EF19FC5C458D /* photo-857.jpg in Resources */,
+				EFE872663663D50506FC927C /* photo-864.jpg in Resources */,
+				07C01BCCF55B23577B5F1F12 /* photo-870.jpg in Resources */,
+				4274A1C2C4DFDC4B4ED816A1 /* photo-871.jpg in Resources */,
+				C1032B90A3BB8B44DC74E084 /* photo-873.jpg in Resources */,
+				984D257BC118C690F8D96BFD /* photo-896.jpg in Resources */,
+				E053CD15877D5FBBE43C297F /* photo-901.jpg in Resources */,
+				086D325AA0813C818886C8EC /* photo-902.jpg in Resources */,
+				B09C8BA3C20C8368B5822A6D /* photo-903.jpg in Resources */,
+				A136AB5EDAC9F45C1914A614 /* photo-906.jpg in Resources */,
+				0F23E7F66966FD25A2C80014 /* photo-923.jpg in Resources */,
+				649670883C5768E5AB1C5ED6 /* photo-924.jpg in Resources */,
+				EA20F68F65D8EC52F0596B49 /* photo-937.jpg in Resources */,
+				0883A6747BA19CAD429FEC29 /* photo-976.jpg in Resources */,
+				DE0BAF2A97D7409D09B81F1E /* photo-980.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6876D01C78049A228775B505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5BD81F04182B41572C24C5 /* BoardView.swift in Sources */,
+				CD59A4980EF822CD65BC9277 /* CollectionView.swift in Sources */,
+				D7320A1190133063010A780B /* Components.swift in Sources */,
+				26DD1758381A04718BCB987C /* GameStore.swift in Sources */,
+				85439B5746AF605DE72BC6B6 /* GameView.swift in Sources */,
+				6CE59B2179AAE0A09339E1F6 /* GameViewModel.swift in Sources */,
+				8AEA64BB0A9A3F06A832B98D /* HomeView.swift in Sources */,
+				12873E7C549FC24E8CFD8CB5 /* PhotoLibrary.swift in Sources */,
+				41AB4E232DCD79AB0429D6A4 /* PuzzleBoard.swift in Sources */,
+				2F0B066ABF7166A080E4EE09 /* PuzzleMode.swift in Sources */,
+				2E59549C65DF8D5C7ADF5F62 /* PuzzleSnapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B92EDB22F03F7E6841AE681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3AA4D67B2B5CF33407BB26 /* PuzzleBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E925B9DF863145104437BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8695373E1A834CE003887B8 /* PuzzleSnap */;
+			targetProxy = ABC43A6341725EE15224262C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C076686016019CEB1ADB4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilaydagumustekin.PuzzleSnapTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleSnap.app/PuzzleSnap";
+			};
+			name = Debug;
+		};
+		3C5355EA28BCAF29559EE904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		60FF2CA47E629D4409A8F457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PuzzleSnap;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilaydagumustekin.PuzzleSnap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BD26D65651EBB632A5581C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C48553BF4AF9C44496E61B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilaydagumustekin.PuzzleSnapTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleSnap.app/PuzzleSnap";
+			};
+			name = Release;
+		};
+		B3441FD53746CA9C4B1A8D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PuzzleSnap;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilaydagumustekin.PuzzleSnap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77748C34C7B85330BDF7D7FB /* Build configuration list for PBXNativeTarget "PuzzleSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C076686016019CEB1ADB4F8 /* Debug */,
+				8C48553BF4AF9C44496E61B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB45AA10D2B7436C1628E5A0 /* Build configuration list for PBXProject "PuzzleSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BD26D65651EBB632A5581C /* Debug */,
+				3C5355EA28BCAF29559EE904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5648BA4203B1E88E800AF20 /* Build configuration list for PBXNativeTarget "PuzzleSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FF2CA47E629D4409A8F457 /* Debug */,
+				B3441FD53746CA9C4B1A8D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FCB9B944EA5A7DA0C675C10 /* Project object */;
+}
